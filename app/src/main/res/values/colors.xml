@@ -1,0 +1,10 @@
+<resources>
+    <color name="salie_primary">#7B61FF</color>
+    <color name="salie_secondary">#B799FF</color>
+    <color name="salie_bg">#F7F5FF</color>
+    <color name="salie_accent">#FF8FB1</color>
+
+    <color name="salie_text">#1D1B20</color>
+    <color name="salie_text_secondary">#5B5566</color>
+</resources>
+
