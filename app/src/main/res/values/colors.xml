@@ -1,10 +1,9 @@
 <resources>
-    <color name="salie_primary">#7B61FF</color>
-    <color name="salie_secondary">#B799FF</color>
-    <color name="salie_bg">#F7F5FF</color>
-    <color name="salie_accent">#FF8FB1</color>
+    <color name="focusmate_primary">#7B61FF</color>
+    <color name="focusmate_secondary">#B799FF</color>
+    <color name="focusmate_bg">#F7F5FF</color>
+    <color name="focusmate_accent">#FF8FB1</color>
 
-    <color name="salie_text">#1D1B20</color>
-    <color name="salie_text_secondary">#5B5566</color>
+    <color name="focusmate_text">#1D1B20</color>
+    <color name="focusmate_text_secondary">#5B5566</color>
 </resources>
-

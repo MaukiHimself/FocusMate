@@ -1,4 +1,4 @@
-package com.salieai.app.ui.main;
+package com.focusmate.app.ui.main;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,23 +9,25 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.salieai.app.databinding.FragmentSimpleModeBinding;
+import com.focusmate.app.core.session.SessionManager;
+import com.focusmate.app.databinding.FragmentHomeBinding;
 
-public class StyleFragment extends Fragment {
-    private FragmentSimpleModeBinding binding;
+public class HomeFragment extends Fragment {
+    private FragmentHomeBinding binding;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        binding = FragmentSimpleModeBinding.inflate(inflater, container, false);
+        binding = FragmentHomeBinding.inflate(inflater, container, false);
         return binding.getRoot();
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        binding.tvTitle.setText("Style Mode");
-        binding.tvSubtitle.setText("Outfits • Weather looks • Color match • Music vibes");
+        String name = SessionManager.getDisplayName(requireContext());
+        binding.tvGreeting.setText("Hi, " + name + " 👋");
+        binding.tvMotivation.setText("Small steps today = big wins tomorrow.");
     }
 
     @Override

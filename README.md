@@ -1,6 +1,6 @@
-# SALIE AI - The Ultimate University Student Assistant
+# FocusMate - The Ultimate University Student Assistant
 
-SALIE AI is an intelligent Android application designed to streamline the university experience by integrating three essential pillars of student life: **Study**, **Style**, and **Life**. Built with Java and modern Android components, it provides a unified dashboard for managing academic goals, personal fashion, and daily wellness.
+FocusMate is an intelligent Android application designed to streamline the university experience by integrating three essential pillars of student life: **Study**, **Style**, and **Life**. Built with Java and modern Android components, it provides a unified dashboard for managing academic goals, personal fashion, and daily wellness.
 
 ---
 
@@ -48,10 +48,10 @@ Balance your personal well-being and daily responsibilities:
 ### Installation
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/MaukiHimself/Salie-ai.git
+   git clone https://github.com/MaukiHimself/FocusMate.git
    ```
 2. **Open in Android Studio**:
-   Select the `SALIE-AI` root folder.
+   Select the `FocusMate` root folder.
 3. **Sync Gradle**:
    Wait for the project to download dependencies and synchronize.
 4. **Run**:

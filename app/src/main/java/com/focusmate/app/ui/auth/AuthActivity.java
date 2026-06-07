@@ -1,13 +1,13 @@
-package com.salieai.app.ui.auth;
+package com.focusmate.app.ui.auth;
 
 import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.salieai.app.core.session.SessionManager;
-import com.salieai.app.databinding.ActivityAuthBinding;
-import com.salieai.app.ui.main.MainActivity;
+import com.focusmate.app.core.session.SessionManager;
+import com.focusmate.app.databinding.ActivityAuthBinding;
+import com.focusmate.app.ui.main.MainActivity;
 
 public class AuthActivity extends AppCompatActivity {
     private ActivityAuthBinding binding;

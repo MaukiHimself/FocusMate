@@ -6,27 +6,27 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.salieai.app.ui.main.HomeFragment"
+        android:name="com.focusmate.app.ui.main.HomeFragment"
         android:label="Home" />
 
     <fragment
         android:id="@+id/studyFragment"
-        android:name="com.salieai.app.ui.main.StudyFragment"
+        android:name="com.focusmate.app.ui.main.StudyFragment"
         android:label="Study" />
 
     <fragment
         android:id="@+id/styleFragment"
-        android:name="com.salieai.app.ui.main.StyleFragment"
+        android:name="com.focusmate.app.ui.main.StyleFragment"
         android:label="Style" />
 
     <fragment
         android:id="@+id/lifeFragment"
-        android:name="com.salieai.app.ui.main.LifeFragment"
+        android:name="com.focusmate.app.ui.main.LifeFragment"
         android:label="Life" />
 
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.salieai.app.ui.main.ProfileFragment"
+        android:name="com.focusmate.app.ui.main.ProfileFragment"
         android:label="Profile" />
 
 </navigation>

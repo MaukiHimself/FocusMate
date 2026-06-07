@@ -1,4 +1,4 @@
-package com.salieai.app.ui.main;
+package com.focusmate.app.ui.main;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,9 +9,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.salieai.app.databinding.FragmentSimpleModeBinding;
+import com.focusmate.app.databinding.FragmentSimpleModeBinding;
 
-public class StudyFragment extends Fragment {
+public class LifeFragment extends Fragment {
     private FragmentSimpleModeBinding binding;
 
     @Nullable
@@ -24,8 +24,8 @@ public class StudyFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        binding.tvTitle.setText("Study Mode");
-        binding.tvSubtitle.setText("AI Tutor • Notes • Quizzes • Pomodoro • GPA");
+        binding.tvTitle.setText("Life Mode");
+        binding.tvSubtitle.setText("Planner • Habits • Water • Sleep • Expenses • Mood");
     }
 
     @Override

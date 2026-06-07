@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace "com.salieai.app"
+    namespace "com.focusmate.app"
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.salieai.app"
+        applicationId "com.focusmate.app"
         minSdk 24
         targetSdk 34
         versionCode 1

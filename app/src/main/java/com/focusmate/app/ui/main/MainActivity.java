@@ -1,4 +1,4 @@
-package com.salieai.app.ui.main;
+package com.focusmate.app.ui.main;
 
 import android.os.Bundle;
 
@@ -7,8 +7,8 @@ import androidx.navigation.NavController;
 import androidx.navigation.fragment.NavHostFragment;
 import androidx.navigation.ui.NavigationUI;
 
-import com.salieai.app.R;
-import com.salieai.app.databinding.ActivityMainBinding;
+import com.focusmate.app.R;
+import com.focusmate.app.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding binding;

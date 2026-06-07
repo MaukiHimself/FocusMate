@@ -1,4 +1,4 @@
-package com.salieai.app.ui.main;
+package com.focusmate.app.ui.main;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,9 +10,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.salieai.app.core.session.SessionManager;
-import com.salieai.app.databinding.FragmentProfileBinding;
-import com.salieai.app.ui.auth.AuthActivity;
+import com.focusmate.app.core.session.SessionManager;
+import com.focusmate.app.databinding.FragmentProfileBinding;
+import com.focusmate.app.ui.auth.AuthActivity;
 
 public class ProfileFragment extends Fragment {
     private FragmentProfileBinding binding;

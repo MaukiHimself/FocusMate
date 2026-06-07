@@ -16,7 +16,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hi, Student 👋"
-            android:textColor="@color/salie_text"
+            android:textColor="@color/focusmate_text"
             android:textSize="22sp"
             android:textStyle="bold" />
 
@@ -37,7 +37,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Ask SALIE AI"
+                    android:text="Ask FocusMate"
                     android:textColor="@android:color/white"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -89,7 +89,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Study"
-                        android:textColor="@color/salie_text"
+                        android:textColor="@color/focusmate_text"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -98,7 +98,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="6dp"
                         android:text="Tutor • Notes • Quizzes"
-                        android:textColor="@color/salie_text_secondary" />
+                        android:textColor="@color/focusmate_text_secondary" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -120,7 +120,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Style"
-                        android:textColor="@color/salie_text"
+                        android:textColor="@color/focusmate_text"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -129,7 +129,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="6dp"
                         android:text="Outfits • Weather • Vibes"
-                        android:textColor="@color/salie_text_secondary" />
+                        android:textColor="@color/focusmate_text_secondary" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
         </LinearLayout>
@@ -152,7 +152,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Life"
-                    android:textColor="@color/salie_text"
+                    android:textColor="@color/focusmate_text"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -161,7 +161,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
                     android:text="Planner • Habits • Mood"
-                    android:textColor="@color/salie_text_secondary" />
+                    android:textColor="@color/focusmate_text_secondary" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
@@ -182,7 +182,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Today’s Motivation"
-                    android:textColor="@color/salie_text"
+                    android:textColor="@color/focusmate_text"
                     android:textStyle="bold" />
 
                 <TextView
@@ -191,7 +191,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
                     android:text="Small steps today = big wins tomorrow."
-                    android:textColor="@color/salie_text_secondary" />
+                    android:textColor="@color/focusmate_text_secondary" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 

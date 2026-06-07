@@ -1,10 +1,10 @@
-package com.salieai.app.core.session;
+package com.focusmate.app.core.session;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
 public final class SessionManager {
-    private static final String PREFS = "salie_prefs";
+    private static final String PREFS = "focusmate_prefs";
     private static final String KEY_LOGGED_IN = "logged_in";
     private static final String KEY_DISPLAY_NAME = "display_name";
 

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/salie_bg"
+    android:background="@color/focusmate_bg"
     android:padding="18dp">
 
     <com.google.android.material.card.MaterialCardView
@@ -27,7 +27,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Mode"
-                android:textColor="@color/salie_text"
+                android:textColor="@color/focusmate_text"
                 android:textSize="22sp"
                 android:textStyle="bold" />
 
@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="Coming next: feature hub + shortcuts"
-                android:textColor="@color/salie_text_secondary" />
+                android:textColor="@color/focusmate_text_secondary" />
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
